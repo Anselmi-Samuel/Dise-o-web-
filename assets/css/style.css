@@ -1,0 +1,265 @@
+body, main {
+    overflow-x: hidden;
+}
+
+/* navbar */
+.navbar{
+    background-color: #fff;
+    box-shadow: inset 39px 1px 44px -14px rgba(13,13,13,0.59) !important;
+    padding: 15px 0;
+}
+
+.navbar.active{
+    background-color: #000;
+    box-shadow: inset 39px 1px 44px -14px rgba(13,13,13,0.59) !important;
+    padding: 15px 0;
+}
+
+.navbar .container{
+    padding: 0 20px;
+}
+
+.navbar .navbar-logo{
+    color: #26AA6A;
+    font-size: 1.9em;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-logo .fas{
+    color:  #000;
+}
+
+.navbar.active .navbar-logo .fas{
+    color: #fff;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar .navbar-toggler .fas {
+    color: #000;
+    font-size: 1.5em;
+}
+  
+.navbar .navbar-nav .nav-link{
+    color: #000; 
+    font-weight: 600;
+    letter-spacing: .5px;
+    transition: all .3s ease-in-out; 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #0D462A;
+}
+
+.navbar.active  .nav-link{
+    color: #26AA6A; 
+    font-weight: 600;
+    letter-spacing: .5px;
+    transition: all .3s ease-in-out; 
+}
+
+/* Hero */
+
+.hero{
+    margin-top: 80px;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero .hero-filter{
+    padding-top: 180px;
+    background-color: rgba(000, 000, 000, .3);
+    padding-bottom: 200px;   
+}
+
+.hero .hero-title{
+    font-weight: 400;
+    font-size: 50px;
+    color: hsl(0, 100%, 0%)
+}
+
+.hero .hero-subtitle{
+    font-size: 23px;
+    font-weight: 400;
+    color:  #D8DCD8;
+}
+
+.hero .hero-btn-group {
+    margin-top: 30px;
+}
+
+.hero .btn{
+    color: #000;
+    background-color: #26AA6A;
+    border: none ;
+    font-weight: 500;
+    box-shadow: inset 39px 1px 44px -14px rgba(13,13,13,0.59);
+    transition: .3s ease-in-out;
+}
+
+.hero .btn:hover{
+    box-shadow: none;
+}
+
+@media(max-width: 576px) {
+    .hero .hero-filter {
+      padding-top: 100px;
+      padding-bottom: 100px; 
+    }
+  }
+  
+/* Card */
+
+.card-container{
+    background-color: #C3C5C2;
+    padding: 20px 0;
+}
+
+.container-card{
+    margin-top: -12%;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .container-card{
+        margin-top: 20px;
+    }
+}
+
+.container-card .card-body .fas{
+    color: #000;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.container-card .card-body .card-tex{
+    color: #000;
+    font-weight: 500;
+}
+
+/* Section */
+.section{
+    background-color: #26AA6A;
+    padding: 30px 0 ;
+}
+
+.section-titulo{
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.section .section-tex{
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Mission */
+.mission{
+    background-color: #C3C5C2;
+    padding: 30px 0;
+}
+.mission-tex{
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.mission-tex p{
+    font-weight: 500;
+}
+
+.mission-body{
+    color: black;
+}
+
+.mission-btn{
+    margin-top: 30px;
+}
+
+.mission-body .mission-btn a{
+    text-decoration: none;
+    color: #000;
+    background-color: #26AA6A;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+    box-shadow: inset 39px 1px 44px -14px rgba(13,13,13,0.59);
+}
+
+.mission-body .mission-btn a:hover{
+    box-shadow: none;
+}
+
+@media(max-width: 800px){
+    .mission-btn{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .mission-tex, .mission-body{
+        text-align: center;
+    }
+}
+
+/* Footer superior */
+.footer-superior{
+   background-color: #313134;
+   padding: 60px 0;
+}
+
+.footer-direction{
+    text-align: center;
+}
+
+.footer-superior .fas{
+    color: #fff;
+    font-size: 20px;
+    background-color: #26AA6A;
+    padding: 20px;
+    border-radius: 175px 175px 175px 175px;
+}
+
+.footer-superior .far{
+    color: #fff;
+    font-size: 20px;
+    background-color: #26AA6A;
+    padding: 20px;
+    border-radius: 175px 175px 175px 175px;
+}
+
+.footer-direction p{
+    color: #fff;
+}
+
+/* footer inferior */
+.footer-inferior{
+    background-color: #939393;
+    padding: 30px 0;
+}
+
+.texto-inferior-container{
+    margin-top:  20px;
+}
+
+.texto-footer-inferior{
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+
+@media(max-width: 800px){
+    .redes, .texto-footer-inferior{
+        text-align: center;
+    }
+}
+
